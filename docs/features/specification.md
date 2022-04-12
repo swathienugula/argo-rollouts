@@ -79,7 +79,6 @@ spec:
       # Reference to service that the rollout modifies as the active service.
       # Required.
       activeService: active-service
-      previewService: bluegreen-preview
       previewMetadata:
         labels:
           version: preview
